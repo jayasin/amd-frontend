@@ -1,0 +1,17 @@
+<div class="line-chart">
+  <p class="legend">{{lineChartData[0]?.label}}</p>
+  <p class="temprature">Temprature</p>
+  <div style="display: block">
+    <canvas
+      baseChart
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [legend]="lineChartLegend"
+      [chartType]="'line'"
+      [colors]="lineChartColors"
+      [options]="lineChartOptions"
+    >
+    </canvas>
+  </div>
+  <p class="time">Time</p>
+</div>

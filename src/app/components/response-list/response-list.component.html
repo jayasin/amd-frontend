@@ -1,0 +1,24 @@
+<div class="responselist">
+
+    <table>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Time</th>
+                <th>Temprature</th>
+                <th>SMS Action Payload</th>
+
+            </tr>
+        </thead>
+        <tbody *ngIf="value.length > 0">
+            <tr *ngFor="let i of value">
+                <td>{{i.weatherdata.name}}</td>
+                <td>{{i.smsData.createdAt | date: "YYYY-MM-dd, hh:mm"}}</td>
+                <td>{{i.weatherdata.main.temp - 273.15 | number:'1.0-2'}} &#176; C</td>
+                <td style="width: 250px;">{{i.smsData | json}}</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+</div>

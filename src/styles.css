@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+body,
+button,
+input,
+td,
+th,
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}

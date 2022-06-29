@@ -1,0 +1,24 @@
+table {
+    width: 34.6vw;
+    margin: 25px auto;   
+    border-collapse: collapse;
+    background-color: #FFF;
+    border-radius: 4px;
+    
+}
+
+.responselist {
+    padding: 15px;
+    /* background-color: #FFF; */
+}
+
+th {
+    padding: 10px;
+    border-bottom: 1px solid #D1D1D2;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #D1D1D2;
+}

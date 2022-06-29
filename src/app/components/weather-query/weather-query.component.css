@@ -1,0 +1,112 @@
+.query-form {
+    display: flex;
+    width: 400px;
+    gap: 20px;
+    flex-direction: column;
+    margin: 16.54vh auto 6vh auto;
+  }
+  
+  .query-form .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .query-form .input-container label {
+    font-size: 14px;
+    color: #1c1d1f;
+    margin: 8px 0;
+  }
+  
+  .query-form .input-container input {
+    height: 40px;
+    outline: transparent;
+    border-radius: 4px;
+    padding: 0 5px;
+    width: 97%;
+    border: 1px solid #d1d1d2;
+  }
+  
+  .query-form .input-container .input-wrapper .error {
+      height: 40px;
+      outline: transparent;
+      border-radius: 4px;
+      border: 1px solid #FB6868;
+  }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input:disabled {
+  color: rgba(161, 161, 161, 1);
+  border: transparent !important;
+  background-color: rgba(232, 232, 233, 1);
+}
+  
+  
+  
+  
+  
+  .query-form button {
+    height: 48px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #43425d;
+    border-radius: 5px;
+    cursor: pointer;
+    border: transparent;
+    width: 100%;
+    margin-top: 3.41vh;
+  }
+
+
+  button:disabled,
+button[disabled]{
+
+    background-color: #a1a1a1 !important;
+   
+}
+  
+  .query-form .header {
+    font-weight: 700;
+    font-size: 18px;
+  
+  }
+  
+  
+  .query-form .input-container .hint-text {
+      font-size: 12px;
+      color: #4D4F5C;
+      margin: 10px 0;
+  
+  }
+  
+  
+  .query-form .input-container .error-text {
+      font-size: 12px;
+      color: #FB6868;
+      margin: 10px 0;
+  
+  }
+  .input-wrapper {
+    position: relative;
+  }
+
+  .input-wrapper .close-icon{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #FB6868;
+    cursor: pointer;
+  }
+
+  .errorfield > input  {
+    height: 40px;
+      outline: transparent;
+      border-radius: 4px;
+      border: 1px solid #FB6868 !important;
+  }
