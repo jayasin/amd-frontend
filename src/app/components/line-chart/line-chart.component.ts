@@ -38,7 +38,7 @@ export class LineChartComponent implements OnInit {
   public lineChartData = [];
   public lineChartColors: Color[] = [
     {
-      borderColor: '#82b2c7',
+      borderColor: '#65A0BA',
       backgroundColor: '#FFF0',
     },
   ];
@@ -59,7 +59,7 @@ export class LineChartComponent implements OnInit {
 
           this.lineChartLabels = [...this.lineChartLabels, moment(res.smsData.createdAt).format('hh:mm')];
           this.lineData = [...this.lineData, res.weatherdata.main.temp - 273.15];
-          this.lineChartData = [{data: this.lineData, label: res.weatherdata.name+ " Temprature", pointBackgroundColor: "#82b2c7"}]
+          this.lineChartData = [{data: this.lineData, label: res.weatherdata.name+ " Temprature", pointBackgroundColor: "#65A0BA"}]
         }
       }
     }));
